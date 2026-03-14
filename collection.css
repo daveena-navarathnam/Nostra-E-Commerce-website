@@ -1,0 +1,296 @@
+.collection-container {
+    margin-top: 20Px;
+    display: flex;
+}
+
+.filter {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-right: 3px solid black;
+}
+
+.filter label {
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.filter h1 {
+    margin-top: 35px;
+}
+
+.products {
+    width: 80%;
+    padding: 20px;
+
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid black 1px;
+
+}
+
+.search {
+    position: absolute;
+    right: 1%;
+    top: 25%;
+}
+
+.products-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+
+}
+
+.Products-grid img {
+    width: 100%;
+}
+
+.Products-grid h2,
+p {
+    margin-top: 2px;
+}
+
+.news-letter {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.footer {
+    background-color: #1D232C;
+    padding: 45px;
+    margin-top: 5%;
+    color: #E3E1E1;
+    font-size: 25px;
+}
+
+
+/*Responsive design*/
+
+
+@media (max-width :768px) {
+    .collection-container {
+        margin-top: 5Px;
+
+    }
+
+    .filter {
+        padding: 10px;
+
+
+
+    }
+
+    .filter label {
+
+        gap: 10px;
+        font-size: 15px;
+    }
+
+    .filter h1 {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .signupbar p {
+        font-size: 11px;
+    }
+
+    .signup-content {
+        gap: 70px;
+    }
+
+    .navbar_content2 {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .Products-grid h1 {
+        font-size: 16px;
+    }
+
+    .news-letter-contents input {
+
+        padding: 10px;
+
+
+    }
+
+    .news-letter-contents {
+        font-size: 10px;
+    }
+
+    .news-letter-contents p {
+        font-size: 15px;
+    }
+
+    .subscribe {
+        padding: 5px;
+
+
+
+        font-size: 15px;
+    }
+
+    .footer {
+
+        padding: 35px;
+
+        font-size: 10px;
+    }
+
+    .icons {
+
+        gap: 40px;
+        font-size: 15px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+
+    }
+
+    .footer-content p {
+        margin-top: 10px;
+        font-size: 15px;
+
+    }
+}
+
+
+
+@media (max-width :480px) {
+
+
+
+    .signupbar p {
+        font-size: 5px;
+    }
+
+    .signup-content {
+        gap: 20px;
+    }
+
+    .signupbar {
+        padding: 0px;
+
+    }
+
+    .navbar {
+        padding: 0px 10px;
+    }
+
+    .navbar_content2 {
+        display: none;
+    }
+
+    .search-bar input {
+        padding: 5px;
+    }
+
+    .search {
+        right: 2%;
+        font-size: 14px;
+    }
+
+    .placeholder {
+        font-size: 10px;
+    }
+
+    .collection-container {
+        margin-top: 5Px;
+
+    }
+
+    .filter {
+        padding: 10px;
+        width: 25%;
+
+
+    }
+
+    .filter label {
+
+        gap: 5px;
+        font-size: 5px;
+        margin-top: 5px;
+    }
+
+    .filter h1 {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .Products-grid h1 {
+        font-size: 5px;
+    }
+
+
+    .news-letter-contents input {
+
+        padding: 5px;
+
+
+    }
+
+    .news-letter-contents {
+        font-size: 8px;
+    }
+
+    .news-letter-contents p {
+        font-size: 10px;
+    }
+
+    .subscribe {
+        padding: 8px;
+
+
+
+        font-size: 10px;
+    }
+
+    .footer {
+
+        padding: 25px;
+
+        font-size: 10px;
+    }
+
+    .icons {
+
+        gap: 20px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+    }
+
+    .footer-content p {
+        margin-top: 5px;
+        font-size: 10px;
+
+    }
+}
