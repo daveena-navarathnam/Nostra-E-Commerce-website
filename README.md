@@ -5,6 +5,7 @@ Nostra is a responsive front-end e-commerce website developed using HTML, CSS, a
 
 The website allows users to browse product collections, search for items, and access a contact form. The goal of this project was to practice building a structured, responsive, and interactive website using modern front-end techniques.
 
+
 Technologies Used
 
 HTML5 – Structure of the website
@@ -17,11 +18,13 @@ Font Awesome – Icons
 
 Google Fonts (Poppins) – Typography
 
+
 Development Tools:
 
 Visual Studio Code
 
 Git & GitHub
+
 
 Project Structure
 Nostra-E-Commerce-Website
@@ -36,10 +39,12 @@ Nostra-E-Commerce-Website
 │
 ├── script.js
 └── README.md
+
 Pages
 Home Page (index.html)
 
 The main landing page of the website.
+
 
 Features include:
 
@@ -65,6 +70,7 @@ Collections Page (collections.html)
 
 Displays a grid of products with filtering and search functionality.
 
+
 Features:
 
 Product grid layout
@@ -78,6 +84,7 @@ Product cards with images, names, and prices
 Contact Page (contact.html)
 
 Provides a form for users to send messages.
+
 
 Features:
 
@@ -93,6 +100,7 @@ Newsletter section and footer
 
 CSS Files
 style.css
+
 
 Main stylesheet used for the homepage and shared components such as:
 
@@ -110,6 +118,7 @@ Responsive layouts
 
 collection.css
 
+
 Styles specific to the collections page, including:
 
 Filter sidebar
@@ -119,6 +128,7 @@ Product grid
 Search bar
 
 contact.css
+
 
 Styles specific to the contact page, including:
 
@@ -132,6 +142,7 @@ JavaScript (script.js)
 
 JavaScript is used to add interactivity to the website.
 
+
 Implemented features include:
 
 Signup bar close functionality
@@ -141,6 +152,7 @@ Mobile side navigation menu
 Product search filtering
 
 The search feature dynamically filters products based on user input.
+
 
 Responsive Design
 
@@ -161,6 +173,7 @@ Flexbox layouts
 Mobile navigation menu
 
 Adaptive images and containers
+
 
 Author
 
