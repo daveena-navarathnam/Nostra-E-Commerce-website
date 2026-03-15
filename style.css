@@ -691,11 +691,11 @@ p {
     }
 
     .slider-content h1 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .slider-content h4 {
-        font-size: 12px;
+        font-size: 8px;
     }
 
     .slider-image img {
@@ -705,7 +705,7 @@ p {
     .btn {
 
         padding: 3px;
-        font-size: 10px;
+        font-size: 8px;
 
     }
 
