@@ -33,3 +33,30 @@ sidenavbarX.addEventListener("click", function(){
 }
 
 })
+
+
+
+//search enable//
+var products = document.querySelectorAll(".Products-grid")
+var search = document.querySelector(".placeholder")
+
+search.addEventListener("keyup", function(event){
+
+    var enteredValue = event.target.value.toUpperCase()
+
+    for(var i = 0; i < products.length; i++){
+
+        var productName = products[i].querySelector("h1").textContent
+
+        if(productName.toUpperCase().indexOf(enteredValue) < 0)
+        {
+            products[i].style.display = "none"
+        }
+        else
+        {
+            products[i].style.display = "block"
+        }
+
+    }
+
+})
